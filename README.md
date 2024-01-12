@@ -75,7 +75,7 @@ describe("silly-view-counter", () => {
 
 #### Testing throws and redirects
 
-`ctx.throw` and `ctx.redirect` are defaulted to `jest.fn()`s, allowing you to easily test that a request has redirected or thrown in your middleware.
+`ctx.throw` and `ctx.redirect` are defaulted to `vi.fn()`s, allowing you to easily test that a request has redirected or thrown in your middleware.
 
 ```typescript
 import passwordValidator from "../password-validator";
@@ -117,7 +117,7 @@ describe("oauthStart", () => {
 
     oAuthStart(ctx);
 
-    expect(ctx.cookies.set).toBeCalledWith("shopifyNonce", fakeNonce);
+    expect(ctx.cookies.set).toBeCalledWith("one-time-code", fakeNonce);
   });
 });
 ```
