@@ -8,7 +8,7 @@
   "author": "Story Health",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Story-Health/vitest-koa-mocks.git"
+    "url": "git@github.com:Story-Health/vitest-koa-mocks.git"
   },
   "bugs": {
     "url": "https://github.com/Story-Health/vitest-koa-mocks/issues"
@@ -32,10 +32,10 @@
     "@types/express": "^4.11.1",
     "@types/koa": "^2.0.0",
     "typescript": "~5.0.2",
-    "vitest": "^0.34.6"
+    "vitest": "^1.2.1"
   },
   "peerDependencies": {
-    "vitest": "^0.34.6"
+    "vitest": "^1.2.1"
   },
   "sideEffects": false,
   "files": [
