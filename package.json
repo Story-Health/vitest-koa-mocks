@@ -1,6 +1,6 @@
 {
   "name": "@story-health/vitest-koa-mocks",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "license": "MIT",
   "description": "Utilities to easily stub Koa context and cookies",
   "main": "./build/ts/index.js",
